@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Santern Koding</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <style>
+        #sponsor img {
+            height: 105px;
+        }
+
+        .jumbotron {
+            background-image: url('assets/images/hero.jpg');
+            background-position: top center;
+            background-size: cover;
+        }
+
+        .card-desc {
+            font-size: 14px;
+        }
+
+        blockquote p {
+            font-size: 17px;
+        }
+
+        #mondok img {
+            width: 30%;
+        }
+
+        #sponsor .col-12 img {
+            width: 33%;
+        }
+
+        #kajian .card:hover,
+        #kilat .card:hover {
+            box-shadow: 0 28px 36px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+            cursor: pointer;
+        }
+
+        #mondok img:hover {
+            box-shadow: 0 28px 36px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+        }
+
+        .bg-green {
+            background-color: #0BC72A;
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+    <!-- Menu Navigasi -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border py-2 sticky-top">
+        <a class="navbar-brand" href="#">
+            <img src="assets/images/logo.png" height="50" class="d-inline-block align-center pr-2" alt="Santren Koding"> Santren Koding
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kajian Koding</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Santren Kilat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mondok</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                </li>
+            </ul>
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Login/Signup</button>
+        </div>
+    </nav>
+    <!-- Menu Navigasi -->
+
+    <!-- Hero -->
+    <div class="jumbotron text-center text-white mb-0 rounded-0">
+        <h1 class="display-3">Belajar Jadi Asyik!</h1>
+        <p class="lead text-capitalize">Kegiatan belajar intensif programming dan qur'an bersama santren koding.</p>
+        <button type="button" class="btn btn-success btn-lg mt-4">Mulai Belajar</button>
+    </div>
+    <!-- Hero -->
+
+    <!-- Content -->
+    <!-- Kajian Koding -->
+    <section id="kajian">
+        <div class="container">
+            <h2 class="text-capitalize text-center my-4 py-2">Daftar kajian koding rutin</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/kajiankoding3.png" alt="Kajian Koding #3">
+                        <div class="card-body">
+                            <h5 class="card-title">Kajian Koding #3</h5>
+                            <h6 class="card-subtitle py-2 mb-2">ReactJS dan Firebase Auth/Hosting</h6>
+                            <div class="card-desc d-flex justify-content-between align-center">
+                                <a href="#" class="text-secondary">by Santren Koding</a>
+                                <span class="align-bottom text-danger">Kuota Terbatas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/kajiankoding2.png" alt="Kajian Koding #3">
+                        <div class="card-body">
+                            <h5 class="card-title">Kajian Koding #2</h5>
+                            <h6 class="card-subtitle py-2 mb-2">html, css, bootstrap dasar</h6>
+                            <div class="card-desc d-flex justify-content-between align-center">
+                                <a href="#" class="text-secondary">by Santren Koding</a>
+                                <span class="align-bottom text-danger">Kuota Terbatas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/kajiankoding1.png" alt="Kajian Koding #3">
+                        <div class="card-body">
+                            <h5 class="card-title">Kajian Koding #1</h5>
+                            <h6 class="card-subtitle py-2 mb-2">Belajar Laravel Dasar</h6>
+                            <div class="card-desc d-flex justify-content-between align-center">
+                                <a href="#" class="text-secondary">by Santren Koding</a>
+                                <span class="align-bottom text-danger">Kuota Terbatas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-success d-block my-4 mx-auto">Lihat Seluruh Kajian Koding</button>
+        </div>
+    </section>
+    <!-- Kajian Koding -->
+
+    <hr>
+
+    <!-- Santren Kilat -->
+    <section id="kilat">
+        <div class="container">
+            <h3 class="text-capitalize text-center my-4">Daftar santren kilat koding</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/comingsoon.png" alt="Santren Kilat Koding #1">
+                        <div class="card-body">
+                            <h5 class="card-title">Santren Kilat #1 (Coming Soon)</h5>
+                            <h6 class="card-subtitle py-2 mb-2">4 Hari Intensif Laravel</h6>
+                            <div class="card-desc d-flex justify-content-between align-center">
+                                <a href="#" class="text-secondary">by Santren Koding</a>
+                                <span class="align-bottom text-danger">Kuota Terbatas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-outline-success d-block my-4 mx-auto">Lihat Seluruh Santren Kilat</button>
+        </div>
+    </section>
+    <!-- Santren Kilat -->
+
+    <hr>
+
+    <!-- Kegiatan -->
+    <section id="kegiatan" class="my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 bg-green">
+                    <div class="text-center text-white py-4">
+                        <h4 class="pb-4 pt-2">Kegiatan</h4>
+                        <p>
+                            <i class="fas fa-sign-in-alt fa-sm"></i> Koding </p>
+                        <p>
+                            <i class="fas fa-sign-in-alt fa-sm"></i> Belajar Agama dan Al Quran</p>
+                        <p>
+                            <i class="fas fa-sign-in-alt fa-sm"></i> Pendidikan Karakter </p>
+                    </div>
+                </div>
+                <div class="col-6 border bg-white">
+                    <div class="text-center pt-4 pb-5">
+                        <img src="assets/images/logo.png" height="100" alt="Logo">
+                        <blockquote class="blockquote mb-0">
+                            <h4 class="mb-4 pb-2">"Memberi Manfaat Untuk Ummat"</h4>
+                            <p class="mb-0">-Santren Koding-</p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Kegiatan -->
+
+    <hr>
+
+    <!-- Mondok -->
+    <section id="mondok">
+        <div class="container">
+            <div class="text-center">
+                <h3>Mondok by Santren Koding</h3>
+                <p class="mb-5">Sebuah Kegiatan Belajar Intensif Programming & Al Qur'an Selama 3 Tahun hingga jaminan kerja</p>
+                <a href="#">
+                    <img class="py-4" src="assets/images/poster.png" alt="Poster Santren Koding">
+                </a>
+                <button type="button" class="btn btn-outline-success d-block my-4 mx-auto">Lihat Seluruh Santren Kilat</button>
+            </div>
+        </div>
+    </section>
+    <!-- Mondok -->
+
+    <!-- Sponsor -->
+    <section id="sponsor" class="pb-5 border bg-white">
+        <div class="container">
+            <div class="text-center">
+                <h3 class="text-capitalize my-4 pb-2">Sponsor & partner</h3>
+            </div>
+            <div class="col-12">
+                <a href="#">
+                    <img class="d-block mx-auto" src="assets/images/klinikkita.jpg" alt="Klinik Kita">
+                </a>
+            </div>
+
+            <div class="row align-items-center text-center my-4">
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/Undip.png" alt="Universitas Diponegoro">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/logo-udinus.png" alt="Universitas Dian Nuswantoro">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/Logo_unisbank.jpg" alt="Unis Bank">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/pt-java-valley-technology.png" alt="PT. Java Valley Technology">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/orderdilla.png" alt="Dynamic Learning">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/logoG.png" alt="Logo G">
+                    </a>
+                </div>
+            </div>
+            <div class="row align-items-center text-center mb-5">
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/pemkot.png" alt="Pemkot Semarang">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <img src="assets/images/sandec-logo.png" alt="Sandec" style="height: 80px;">
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="assets/images/smgopengo.png" alt="Semarang Open Go" style="height: 130px;">
+                    </a>
+                </div>
+                <div class="col-4">
+                    <a href="#">
+                        <img src="assets/images/programmer-semarang.png" alt="Programmer Semarang" style="height: 50px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sponsor -->
+
+    <!-- Kontak -->
+    <section id="kontak" class="py-5 text-center">
+        <div class="container">
+            <h3 class="mb-4 pb-2">Kontak</h3>
+            <p class="m-0">
+                <i class="fas fa-phone fa-sm"></i> 082225111587</p>
+            <p class="mb-4">
+                <i class="fas fa-envelope fa-sm"></i> santrenkoding@gmail.com</p>
+            <p class="m-0">
+                <i class="fas fa-map-marker-alt fa-sm"></i> Titik Ruang Space,</p>
+            <p class="mb-2">
+                Jl. Ngesrep Tim. III No.67, Sumurboto, Banyumanik,
+                <br /> Kota Semarang, Jawa Tengah 50269
+            </p>
+        </div>
+    </section>
+    <!-- Kontak -->
+
+    <!-- Content -->
+
+    <!-- Footer -->
+    <footer class="bg-white border">
+        <div class="container">
+            <p class="text-secondary my-4">Copyright © Santren Koding 2018. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
